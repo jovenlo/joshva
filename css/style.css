@@ -496,19 +496,19 @@ section .container {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 16px;
+  padding: 20px;
   background: rgba(255, 255, 255, 0.08);
-  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+  transition: background 0.3s ease;
   margin-bottom: 12px;
 }
 
 .skills-icons .icon-box i,
 .skills-icons .icon-box img {
-  font-size: 24px;
-  width: 24px;
-  height: 24px;
+  font-size: 32px;
+  width: 32px;
+  height: 32px;
   margin-right: 10px;
-  transition: transform 0.25s ease, filter 0.25s ease, color 0.25s ease;
+  transition: filter 0.3s ease, color 0.3s ease;
 }
 
 .skills-icons .icon-box h3 {
@@ -519,15 +519,12 @@ section .container {
 }
 
 .skills-icons .icon-box:hover {
-  transform: translateY(-2px);
   background: rgba(255, 255, 255, 0.12);
-  box-shadow: 0 6px 18px rgba(24, 210, 110, 0.15);
 }
 
 .skills-icons .icon-box:hover i,
 .skills-icons .icon-box:hover img {
-  transform: scale(1.15);
-  filter: brightness(1.15);
+  filter: brightness(1.12);
 }
 
 .resume .resume-item ul li .resume-icon {
@@ -974,23 +971,23 @@ section .container {
 @media (max-width: 1400px) {
   .skills-icons .icon-box i,
   .skills-icons .icon-box img {
-    font-size: 26px;
-    width: 26px;
-    height: 26px;
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
   }
   .skills-icons .icon-box h3{
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 
 @media (max-width: 992px) {
   .skills-icons .icon-box i,
   .skills-icons .icon-box img {
-    font-size: 24px;
-    width: 24px;
-    height: 24px;
+    font-size: 28px;
+    width: 28px;
+    height: 28px;
   }
   .skills-icons .icon-box h3{
-    font-size: 14px;
+    font-size: 15px;
   }
 }
